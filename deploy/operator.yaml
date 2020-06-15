@@ -15,7 +15,7 @@ spec:
       serviceAccountName: argocd-operator
       containers:
         - name: argocd-operator
-          image: quay.io/jmckind/argocd-operator@sha256:0fa4b7709e1e9c9cb9ca064be50618f71ff3eef07e185c631b1227f8e5a57776
+          image: 'docker.io/jacobsee/argocd-operator:add-repository-credentials'
           command:
           - argocd-operator
           imagePullPolicy: Always
