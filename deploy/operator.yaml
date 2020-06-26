@@ -15,7 +15,7 @@ spec:
       serviceAccountName: argocd-operator
       containers:
         - name: argocd-operator
-          image: 'docker.io/jacobsee/argocd-operator:add-repository-credentials'
+          image: 'docker.io/jacobsee/argocd-operator:tyler-fix'
           command:
           - argocd-operator
           imagePullPolicy: Always
